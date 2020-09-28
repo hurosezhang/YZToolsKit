@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.2.0)
+  - YZToolsKit (0.1.0):
+    - FMDB (~> 2.7.5)
+    - MBProgressHUD (~> 1.2.0)
+
+DEPENDENCIES:
+  - YZToolsKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  YZToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  YZToolsKit: 6261dc2a6050694e45d68a6655eca93b79ac4ef7
+
+PODFILE CHECKSUM: 8778beb78dbb5bb36738b99132f64d4e098922ab
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,30 @@
+{
+  "name": "YZToolsKit",
+  "version": "0.1.0",
+  "summary": "A short description of YZToolsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hurosezhang/YZToolsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hurosezhang": "jon.zhang@trustlife.com"
+  },
+  "source": {
+    "git": "https://github.com/hurosezhang/YZToolsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YZToolsKit/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+      "~> 2.7.5"
+    ],
+    "MBProgressHUD": [
+      "~> 1.2.0"
+    ]
+  }
+}
