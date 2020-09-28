@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YZToolsKit_Example' do
+  pod 'YZToolsKit', :path => '../'
+
+  target 'YZToolsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
